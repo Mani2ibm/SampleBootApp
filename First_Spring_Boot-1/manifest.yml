@@ -1,7 +1,7 @@
 ---
 applications:
-- name: jenkinsrepo
+- name: SampleBootApp
   memory: 1024M
   buildpack: java_buildpack
   routes:
-  - route: jenkinsrepo.cfapps.io
+  - route: SampleBootApp.cfapps.io
